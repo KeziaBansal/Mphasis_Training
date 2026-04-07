@@ -1,0 +1,444 @@
+2026-03-25 15:46:56 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:46:56 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:46:56 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:46:56 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:46:56 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:46:56 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:46:56 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:46:56 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:46:56 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:46:57 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:46:57 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:46:57 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:46:57 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:46:57 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:46:57 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:46:57 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:46:57 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 15:48:42 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:48:42 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:48:42 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:48:42 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:48:42 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:48:42 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:48:42 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:48:42 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:48:43 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:48:43 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:48:43 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:48:43 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:48:43 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:48:43 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:48:43 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:48:43 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:48:43 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 15:50:19 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:50:19 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:50:19 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:50:19 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:50:19 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:50:19 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:50:19 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:50:19 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:50:20 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:50:20 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:50:20 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:50:20 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:50:20 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:50:20 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:50:20 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:50:20 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:50:20 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 15:50:43 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:50:43 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:50:43 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:50:43 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:50:43 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:50:43 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:50:43 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:50:44 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:50:44 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:50:44 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:50:44 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:50:44 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:50:44 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:50:44 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:50:44 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:50:44 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:50:44 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 15:52:36 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:52:36 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:52:36 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:52:36 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:52:36 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:52:36 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:52:36 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:52:37 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:52:37 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:52:37 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:52:37 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:52:37 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:52:37 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:52:37 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:52:37 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:52:37 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:52:37 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 15:54:24 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:54:24 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:54:24 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:54:24 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:54:24 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:54:24 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:54:24 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:54:25 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:54:25 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:54:25 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:54:25 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:54:25 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:54:25 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:54:25 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:54:25 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:54:25 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:54:25 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 15:58:37 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 15:58:37 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 15:58:37 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 15:58:37 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 15:58:37 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 15:58:38 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 15:58:38 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 15:58:38 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 15:58:38 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 15:58:38 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 15:58:38 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 15:58:38 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 15:58:38 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 15:58:38 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 15:58:38 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 15:58:38 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 15:58:38 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 16:02:52 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 16:02:52 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 16:02:52 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 16:02:52 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 16:02:52 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 16:02:52 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 16:02:52 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 16:02:53 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 16:02:53 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 16:02:53 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 16:02:53 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 16:02:53 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 16:02:53 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 16:02:53 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 16:02:53 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 16:02:53 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 16:02:53 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 16:10:20 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 16:10:20 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 16:10:20 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 16:10:20 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 16:10:20 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 16:10:21 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 16:10:21 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 16:10:21 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 16:10:21 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 16:10:21 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 16:10:21 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 16:10:21 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 16:10:21 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 16:10:21 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 16:10:21 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 16:10:21 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 16:10:21 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 16:10:35 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 16:10:35 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 16:10:35 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 16:10:35 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 16:10:36 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 16:10:36 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 16:10:36 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 16:10:36 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 16:10:36 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 16:10:36 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 16:10:36 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 16:10:36 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 16:10:36 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 16:10:36 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 16:10:36 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 16:10:36 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 16:10:36 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 16:11:47 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 16:11:47 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 16:11:47 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 16:11:47 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 16:11:47 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 16:11:47 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 16:11:47 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 16:11:48 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 16:11:48 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 16:11:48 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 16:11:48 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 16:11:48 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 16:11:48 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 16:11:48 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 16:11:48 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 16:11:48 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 16:11:48 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
+2026-03-25 16:32:21 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.boot.beanvalidation.BeanValidationIntegrator
+2026-03-25 16:32:21 DEBUG service:41 - HHH010455: Adding integrator: org.hibernate.cache.internal.CollectionCacheInvalidator
+2026-03-25 16:32:21 INFO  core:41 - HHH000001: Hibernate ORM core version 7.3.0.Final
+2026-03-25 16:32:21 DEBUG core:155 - HHH000206: 'hibernate.properties' not found
+2026-03-25 16:32:21 DEBUG boot:97 - HHH160204: cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2026-03-25 16:32:21 DEBUG cache:116 - HHH90001031: Cannot default RegionFactory since no RegionFactory strategies were registered
+2026-03-25 16:32:21 DEBUG cache:46 - HHH90001029: Second-level cache disabled
+2026-03-25 16:32:22 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-25 16:32:22 DEBUG pooling:34 - HHH10001014: Initializing connection pool with 1 connections
+2026-03-25 16:32:22 DEBUG jdbc:457 - HHH100017: Database:
+	name: MySQL
+	version: 8.0.42
+	major: 8
+	minor: 0
+2026-03-25 16:32:22 DEBUG jdbc:463 - HHH100018: Driver:
+	name: MySQL Connector/J
+	version: mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	major: 8
+	minor: 0
+	JDBC version: 4.2
+2026-03-25 16:32:22 WARN  deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 16:32:22 DEBUG dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.42
+2026-03-25 16:32:22 DEBUG IdentifierHelperBuilder:205 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2026-03-25 16:32:22 DEBUG jdbc:379 - HHH100122: Using default JDBC fetch size: 0
+2026-03-25 16:32:22 INFO  pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mlamarch]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mlamarch/undefined
+	Autocommit mode: false
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProvider
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-25 16:32:22 DEBUG pooling:79 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mlamarch]
