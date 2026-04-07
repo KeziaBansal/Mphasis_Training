@@ -1,0 +1,9 @@
+#spring.application.name=SpringCloudService2
+spring:
+  application:
+    name: SpringCloudService2
+
+server:
+  port: 7577 
+ 
+
