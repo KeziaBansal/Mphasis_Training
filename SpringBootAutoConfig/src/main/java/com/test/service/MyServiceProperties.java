@@ -1,0 +1,18 @@
+package com.test.service;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(prefix="MyService")
+public class MyServiceProperties {
+	private boolean enabled = true;
+	
+	public boolean isEnabled()
+	{
+		return enabled;
+	}
+	
+	public void setEnabled(boolean enabled)
+	{
+		this.enabled=enabled;
+	}
+}
